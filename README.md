@@ -3,7 +3,7 @@ Takeaway Challenge
 
 Brief
 -------
-* Write a simple Takeaway program with the following user stories:
+Write a simple Takeaway program with the following user stories:
 
 ```sh
 As a customer
