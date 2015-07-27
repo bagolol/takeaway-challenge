@@ -4,7 +4,6 @@ class Takeaway
   attr_accessor :list, :order, :amount_due
 
   def initialize
-    # @twillio = yield
     @list = { 'red curry' => 5, 'green curry' => 5 }
     @order = []
     @amount_due = 0
@@ -34,7 +33,6 @@ class Takeaway
   def empty?
     order.empty?
   end
-
 end
 
 

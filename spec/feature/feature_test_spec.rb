@@ -23,4 +23,3 @@ feature 'as a customer I want to order from a takeaway' do
     expect(customer.takeaway.confirmation).to eq ("Thank you! Your order was placed and will be delivered before #{(time.hour) + 1}:#{time.min}. The amount due is 5$.")
   end
 end
-
