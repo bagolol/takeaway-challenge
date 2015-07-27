@@ -12,8 +12,8 @@ class Customer
     takeaway.list
   end
 
-  def place_order (qty = 1, dish)
-    item = {dish => takeaway.list[dish]}
+  def place_order(qty = 1, dish)
+    item = { dish => takeaway.list[dish] }
     qty.times { takeaway.register_order(item) }
   end
 
